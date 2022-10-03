@@ -5,7 +5,7 @@ int main()
 {
     float x, y, x2, y2;
     printf("Introduce a flot number x\n");
-    scanf("%f",&x); //scanf es para que el programa te pida o tu le metas un numero o variable
+    scanf("%f",&x); //scanf() takes input from the user
     printf("Introduce a flot number y\n");
     scanf("%f",&y);
     printf("Introduce a flot number x2\n");
