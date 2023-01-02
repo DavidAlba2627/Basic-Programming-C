@@ -3,13 +3,13 @@
 int main()
 {
     float x, y, x2, y2;
-    printf("Introduce a flot number x\n");
+    printf("Enter a flot number x\n");
     scanf("%f",&x); //scanf() takes input from the user
-    printf("Introduce a flot number y\n");
+    printf("Enter a flot number y\n");
     scanf("%f",&y);
-    printf("Introduce a flot number x2\n");
+    printf("Enter a flot number x2\n");
     scanf("%f",&x2);
-    printf("Introduce a flot number y2\n");
+    printf("Enter a flot number y2\n");
     scanf("%f",&y2);
     printf("The result of (x + 3y)^2 is: %0.3f \n",pow(x+3*y,2));
     printf("The result of (x^2 + y^2)^1/2 is: %0.3f \n",sqrt(pow(x,2)+pow(y,2)));
