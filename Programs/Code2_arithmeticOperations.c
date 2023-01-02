@@ -1,14 +1,9 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <math.h>
 int main()
 {
-    int a, b;
-    float c;
-    a= 5;
-    b= 10;
-    c= -2;
-    int d = 6;
+    int a=5, b=10, d=6;
+    float c=-2.5;
     printf("a + b = %d \n", a+b); // Adding variables
     printf("a - b = %d \n", a-b); // Subtracting variables
     printf("a * c = %0.2f \n", a*c); // Multiplying variables
