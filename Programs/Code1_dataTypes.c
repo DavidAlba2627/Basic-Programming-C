@@ -1,4 +1,4 @@
-#include <stdio.h> //Header file: printf(), sizeof()
+#include <stdio.h>
 #include <limits.h>
 int main()
 {
@@ -20,5 +20,4 @@ int main()
   printf("Maximum value for a SIGNED CHAR object: %d\n",SCHAR_MAX);
   printf("Maximum value for an UNSIGNED CHAR object: %d\n",UCHAR_MAX);
   return 0;
-
 }
