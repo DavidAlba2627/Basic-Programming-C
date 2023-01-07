@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <math.h>
 int main()
 {
     float x,b,y=0;
@@ -17,7 +17,7 @@ int main()
         printf("The root is %0.4f", b);
     }
     if(x<0){
-        x = abs(x);
+        x = fabs(x);
         b = x;
         while (b!=y)
         {
